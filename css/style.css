@@ -1,0 +1,206 @@
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+
+a {
+    text-decoration: none;
+}
+
+header ul li a {
+    margin: 28px 15px;
+    color: #3C3C3C;
+}
+
+header ul li a:hover {
+    color: #18B5DC;
+    transition: 0.2s ease;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-family: 'Train One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 43px;
+    text-transform: uppercase;
+    color: #282528;
+}
+
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.button {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #3C3C3C;
+    background-color: white;
+    border: 1px solid;
+    padding: 9px 20px;
+    box-sizing: border-box;
+}
+
+.button:hover {
+    color: #ffffff;
+    background-color: #18B5DC;
+    transition: 0.2s ease;
+}
+
+main {
+    background-color: #F6F6F6;
+    border-top: 1px solid #BDBDBD;
+}
+
+.main_title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    padding-top: 150px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 41px;
+    text-align: center;
+    letter-spacing: 0.13em;
+    text-transform: uppercase;
+    color: #3C3C3C;
+    display: inline-block;
+}
+
+h1::after {
+    content: '';
+    width: 45px;
+    height: 4px;
+    background-color: #DDDBDB;
+    display: block;
+    margin: 20px auto auto;
+}
+
+.description {
+    width: 570px;
+    margin-top: 40px;
+    margin-bottom: 60px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #3C3C3C;
+}
+
+.card_img {
+    position: relative;
+    z-index: 1;
+}
+
+
+/* .card_img_hover:hover {
+    visibility: hidden;
+} */
+
+.card_contact {
+    z-index: -1;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+}
+
+h3 {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #282528;
+    margin-top: 20px;
+}
+
+section div p {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    color: #646464;
+    margin-bottom: 150px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer_logo {
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.footer_nav {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+    margin-bottom: 28px;
+}
+
+.footer_nav li a {
+    margin: 0px 15px 0px 0px;
+    color: #3C3C3C;
+}
+
+.footer_nav li a:hover {
+    color: #18B5DC;
+    transition: 0.2s ease;
+}
+
+.contacts {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.contacts li a {
+    margin: 0px 5px 0px 0px;
+}
+
+.contacts li a:hover {
+    filter: invert(0.1);
+    transition: 0.2s ease;
+}
